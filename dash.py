@@ -1,5 +1,14 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
+# Let's first load and examine the uploaded CSV file to understand its structure and content.
+import pandas as pd
+
+# Load the CSV file
+df = pd.read_csv('/mnt/data/data.csv')
+
+# Display the first few rows of the dataframe to understand its structure and content
+df.head()
+
 
 # Set the aesthetic style of the plots
 sns.set_style("whitegrid")
